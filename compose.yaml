@@ -1,6 +1,6 @@
 services:
     nginx:
-        container_name: captive
+        container_name: connectivity
         ports:
             - 80:80
         volumes:
