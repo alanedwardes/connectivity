@@ -1,0 +1,9 @@
+services:
+    nginx:
+        container_name: captive
+        ports:
+            - 80:80
+        volumes:
+            - ./nginx.conf:/etc/nginx/nginx.conf:ro
+        image: nginx
+        restart: always
